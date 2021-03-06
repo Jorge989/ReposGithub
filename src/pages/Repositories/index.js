@@ -48,7 +48,7 @@ async function loadIssue(){
     setIssues(response.data)
 }
 loadIssue();
-},[filterIndex,filters,match.params.repositorio,page])
+},[filterIndex, filters, match.params.repositorio,page])
 
     function handlePage(action){
         setPage(action === 'back' ? page - 1 : page + 1) 
@@ -57,7 +57,7 @@ loadIssue();
 function handleFilter(index){
     setFilterIndex(index);
 }
-
+console.log(setFilters)
     if (loading){
         return(
             <Loading>
