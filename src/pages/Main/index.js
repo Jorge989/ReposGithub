@@ -79,7 +79,7 @@ setRepositorios(find);
         <input
           type="text"
           placeholder="Adicionar Repositórios"
-          placeholder="Adicionar repositorios"
+  
           value={newRepo}
           onChange={handleinputChange}
         />
